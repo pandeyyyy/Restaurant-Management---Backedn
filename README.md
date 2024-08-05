@@ -4,19 +4,32 @@ This is a RESTful backend service for managing restaurant operations, built usin
 
 Features
 User Authentication: Secure user registration and login functionality using JWT (JSON Web Tokens).
+
 Role-Based Access Control: Different access permissions for admins, staff, and customers.
+
 Menu Management: CRUD operations for managing restaurant menus.
+
 Order Management: Create, read, update, and delete orders with status tracking.
+
 Table Management: Assign and manage tables for different customers.
+
 Payment Integration: Support for integrating with various payment gateways.
+
 API Documentation: Detailed API documentation with Swagger.
+
 Technologies Used
 Golang: The main programming language used for the backend.
+
 Gin: A web framework for building fast and scalable web applications in Golang.
+
 Gorm: An ORM library for Golang.
+
 JWT: Used for securing endpoints with JSON Web Tokens.
+
 PostgreSQL: The database used for storing all application data.
+
 Swagger: For API documentation.
+
 API Endpoints
 The following are some of the key API endpoints available:
 
